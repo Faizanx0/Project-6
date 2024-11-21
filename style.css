@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-family: "gilroy";
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+nav {
+    text-transform: uppercase;
+    display: flex;
+    height: 5vw;
+    padding: 0 2vw;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+
+nav h3{
+    font-weight: 300;
+}
+
+#right{
+    display: flex;
+    gap: 3vw;
+}
+
+nav h3:hover{
+   color:rgba(190, 253, 253, 0.959);
+   cursor:pointer;
+}
+
+
+#center h1{
+    font-size: 120px;
+    font-weight: 300;
+    text-transform: uppercase;
+    width: 75%;    
+    margin-left: 15%;
+    line-height: 105px;
+    position: relative;
+    z-index: 1;
+    mix-blend-mode:difference;
+}
+
+#center h1:nth-child(1){
+    margin-top: 11rem;
+    
+}
+    
+#center h1:nth-child(2){
+    text-align: center;
+}
+
+#center h1:nth-child(3){
+    text-align: center;
+}
+
+img{
+    width: 18vw;
+    height: 25vw;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+#img1{
+    rotate: 20deg;
+}
+
+#img2{
+    rotate: 10deg;
+}
+
+#img3{
+    rotate: 0deg;
+}
+
+#footer{
+   position:absolute;
+   bottom: 0%;
+   text-transform: uppercase;
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   padding:0vw 3vw ; 
+   font-size: 20px;
+}
+
+#footer>h3{
+    padding-top: 2vw;
+}
+
+#footer h3{
+    font-weight: 300;
+}
+
+#foot h3{
+    margin-right: 10vw;
+}
+
+#footer h3:nth-child(3){
+    text-align: center;
+    padding-bottom: 0.3vw;
+}
